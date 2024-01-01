@@ -1,0 +1,65 @@
+[Script Info]
+Title: Français (France)
+Original Script: cr_fr  [http://www.crunchyroll.com/user/cr_fr]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 848
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0003,0003,0025,1
+Style: JUJUTSUKAISEN,Times New Roman,56,&H00000000,&H000000FF,&H008CC6C2,&H00000000,-1,0,0,0,100,150,0,0,1,2,0,8,0010,0010,0018,1
+Style: Italique,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,2,0003,0003,0025,1
+Style: TiretsDefault,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,1,0020,0003,0025,1
+Style: TiretsItalique,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1,1,1,0020,0003,0025,1
+Style: signA,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0100,1
+Style: SignB,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0030,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:54.89,0:00:57.52,signA,sign,0000,0000,0000,,Laisse-moi, je te dis
+Dialogue: 0,0:01:04.64,0:01:06.89,signA,sign,0000,0000,0000,,Arrête
+Dialogue: 0,0:01:17.81,0:01:21.81,SignB,sign,0000,0000,0000,,{\fs23}Novembre 2016, Tokyo.\NQuatre élèves brimant un camarade\Nsont grièvement blessés.
+Dialogue: 0,0:06:17.64,0:06:23.56,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1500,1950)\blur5\3a&H44&\1a&HFF&}JUJUTSU KAISEN
+Dialogue: 1,0:06:17.64,0:06:27.60,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1500,0)}JUJUTSU KAISEN
+Dialogue: 0,0:09:07.31,0:09:10.31,SignB,sign,0000,0000,0000,,{\pos(421,308)}Maudit de classe S : Yuta Okkotsu\NEsprit vengeur de classe S : Rika Orimoto
+Dialogue: 0,0:09:10.31,0:09:13.31,signA,sign,0000,0000,0000,,{\pos(424,305)}Six ans auparavant,\NSendai, préfecture de Miyagi
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\an1\fnTimes New Roman\fs16\c&H533139&\bord0\shad0\pos(272,103)\b1\frz6.993}ÉCOLE D’EXORCISME DE TOKYO\N{\fs12}[Carte d’étudiant]
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\p1\fscx255\fscy255\shad0\bord1\3c&H59373F&\c&HE3BEC3&\pos(469,171.308)}m 0 0 b 5 -5 10 0 10 0 b 10 0 15 5 10 10 b 10 10 5 15 0 10 b 0 10 -5 5 0 0
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\an5\fnTimes New Roman\fs14\c&H533139&\bord0\shad0\b1\pos(456.077,133.769)}S
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\an1\fs12\c&H533139&\bord0\shad0\b1\fscx80\fax.05\pos(251.692,181.538)\frz7.507}Nom : Yuta Okkotsu
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\an1\fs11\c&H73525A&\fsp2\bord0\shad0\b1\frz6.993\fscx80\fax.05\pos(258.462,225.846)}Date de naissance : 7 mars 2001
+Dialogue: 0,0:17:06.27,0:17:08.85,Default,Sign,0000,0000,0000,,{\an1\fs11\c&H6A4750&\bord0\shad0\b1\fscx75\fax.05\pos(260.308,252.923)\frz7.5\b1}Cette personne est inscrite dans l’établissement.
+Dialogue: 0,0:32:07.97,0:32:16.77,Default,sign,0000,0000,0000,,{\fad(1125,0)\an8\fs26\fnComic Sans MS\b1\c&H7A36CD&\3c&HC18CF7&\4c&HC1A4EC&\shad1\pos(663.538,6.923)}CONVERSATION LICENCIEUSE
+Dialogue: 0,0:35:06.27,0:35:08.27,Default,Sign,0000,0000,0000,,{\pos(425.231,122.462)\fnArial\b1\c&H173A53&\fs14\3c&H37D2EC&\shad0}ACCÈS RÉSERVÉ\N{\fs20}DÉFENSE D’ENTRER
+Dialogue: 0,0:35:08.27,0:35:10.27,Default,Sign,0000,0000,0000,,{\c&H0E2021&\3c&H45585E&\shad0\fs14\frz349.8\frx352\fry332\fax.1\move(414,245,447,245)}FERMÉ
+Dialogue: 0,0:35:41.43,0:35:43.43,Default,Sign,0000,0000,0000,,{\c&H4E4B4B&\3c&HEAE9E7&\fnComic Sans MS\shad0\fs16\pos(252,70)\bord2}SPRAY BUCCAL
+Dialogue: 0,0:36:23.68,0:36:25.68,Default,Sign,0000,0000,0000,,{\fnArial\b1\c&H164C70&\3c&HB2DFAC&\shad0\frx348\fry34\fax-.2\move(546,95,513,95)\frz22.57}DANGER
+Dialogue: 0,0:39:19.93,0:39:21.93,Default,Sign,0000,0000,0000,,{\an5\fs10\bord0\shad0\frx4\fry356\frz5.969\be.25\t(\fs11)\move(351,173,364,177,0,28)}PAS DE RÉSEAU
+Dialogue: 0,0:39:19.93,0:39:21.93,Default,Sign,0000,0000,0000,,{\an5\fs14\bord0\shad0\frx4\fry356\frz5.969\be.25\t(\fs15)\move(458,192,478,197)}ENTREZ VOTRE CODE PIN
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\an1\fnTimes New Roman\fs24\c&H274023&\bord0\shad0\b1\frx358\fry356\pos(148.001,92.666)\frz12.75}ÉCOLE D’EXORCISME DE TOKYO\N{\fs16}[Carte d’étudiant]
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\p1\fscx320\fscy320\shad0\bord1.5\3c&H22341B&\c&HC1EBB2&\pos(493.999,171.641)}m 0 0 l 0 -10 b 0 -10 10 -10 10 0 b 10 10 0 10 0 10 b 0 10 -10 10 -10 0 b -10 0 -10 -10 0 -10
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\an5\fnTimes New Roman\fs26\c&H24381F&\bord0\shad0\b1\frz12.14\pos(460.855,106.88)}S
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\an1\fs18\c&H193618&\bord0\shad0\b1\fscx80\fax.05\pos(126.667,220)\frz12.46}Nom : Yuta Okkotsu
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\an1\fs17\c&H1C381B&\fsp2\bord0\shad0\b1\fscx80\fax.05\frz11.73\pos(142,293.333)}Date de naissance : 7 mars 2001
+Dialogue: 0,0:43:36.35,0:43:38.68,Default,Sign,0000,0000,0000,,{\fad(0,375)\an1\fs17\c&H193618&\bord0\shad0\b1\fscx75\fax.05\b1\pos(150,336.667)\frz12.66}Cette personne est inscrite dans l’établissement.
+Dialogue: 0,0:46:11.22,0:46:14.22,Default,Sign,0000,0000,0000,,{\an8\fnTimes New Roman\b1\fs20\c&H080C14&\3c&HE4ECF0&&\4c&H10191A&\bord2}MORT AUX IMBÉCILES\NMALHEUR AUX FAIBLES\NGLOIRE AUX FORTS
+Dialogue: 0,0:46:38.97,0:46:42.68,Default,Sign,0000,0000,0000,,{\an8\fnTimes New Roman\bord2\fs30\c&H080C14&\3c&HE4ECF0&\4c&H10191A&\move(656,10,870,10)}MORT
+Dialogue: 0,0:46:38.97,0:46:42.68,Default,Sign,0000,0000,0000,,{\an8\fnTimes New Roman\bord2\fs30\c&H080C14&\3c&HE4ECF0&\4c&H10191A&\move(302,10,516,10)}MALHEUR
+Dialogue: 0,0:46:38.97,0:46:42.68,Default,Sign,0000,0000,0000,,{\an8\fnTimes New Roman\bord2\fs30\c&H080C14&\3c&HE4ECF0&\4c&H10191A&\move(-56,10,168,10)}GLOIRE
+Dialogue: 0,0:58:53.72,0:58:57.64,signA,sign,0000,0000,0000,,{\fad(975,0)\pos(423,281)} 24 décembre\NParade nocturne des Cent démons
+Dialogue: 0,1:09:53.22,1:09:56.22,signA,sign,0000,0000,0000,,Rapport : 24 décembre 2017.
+Dialogue: 0,1:10:00.47,1:10:03.47,signA,sign,0000,0000,0000,,{\pos(424,300)}Seconde apparition complète de Rika,\Nesprit vengeur classé S.
+Dialogue: 0,1:35:35.39,1:35:43.89,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1475,0)\fs16\pos(270.001,255)\be1}LE FILM
+Dialogue: 0,1:35:35.39,1:35:43.89,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1475,0)\an2\pos(424,350)\1a&HFF&\3a&HFF&\be1\bord4.5\3c&H000000&\t(3776,3776,1 \3a&H00&)}JUJUTSU KAISEN
+Dialogue: 0,1:35:35.39,1:35:43.89,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1475,0)\an2\pos(424,350)\1a&HFF&\be1}JUJUTSU KAISEN
+Dialogue: 0,1:35:35.39,1:35:43.89,JUJUTSUKAISEN,sign,0000,0000,0000,,{\fad(1475,0)\an2\pos(424,350)\3a&HFF&}JUJUTSU KAISEN
